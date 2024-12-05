@@ -12,7 +12,7 @@ Prerequisites
 
 Node.js (version 14 or higher) MongoDB (local or remote instance, e.g., MongoDB Atlas) JWT Secret (for secure authentication) Steps
 
-Clone the Repository: Bash git clone (https://github.com/karansrinivas1/Cred.git) Use code with caution.
+Clone the Repository: Bash git clone (https://github.com/karansrinivas1/FinalProjectCred) Use code with caution.
 
 Install Dependencies: Frontend (React): Navigate to the client directory. Run npm install. Backend (Node.js): Navigate to the server directory. Run npm install. Set Up Environment Variables Create .env files in both client and server directories.
 
