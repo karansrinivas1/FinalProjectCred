@@ -1,0 +1,64 @@
+.credit-card {
+    width: 320px;
+    height: 200px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    color: #333;
+}
+
+.card-chip {
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to bottom, #d4af37, #c39d2d);
+    border-radius: 4px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.card-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+}
+
+.card-logo img {
+    width: 100%;
+}
+
+.card-number {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.card-holder {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.card-valid-thru {
+    text-align: right;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+/* src/components/CompanyShowcase.css */
+
+.company-showcase-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.company-showcase-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.company-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.company-showcase-item {
+    text-align: center;
+    width: 100%;
+    max-width: 150px;
+}
+
+.company-showcase-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.company-showcase-name {
+    font-size: 1em;
+    font-weight: bold;
+}
